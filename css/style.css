@@ -29,7 +29,7 @@ p{
     color: rgb(138, 138, 138);
 }
 .logo{
-    background-image: url(/clipboard/images/bg-header-desktop.png);
+    background-image: url(../images/bg-header-desktop.png);
     background-repeat: no-repeat;
     
 }
@@ -109,15 +109,18 @@ p{
     
 }
 @media (max-width:750px){
+    .contain{
+        width: 350px;
+    }
+    .contain .son_2 img , .contain .son_3 img{
+        width: 90%;
+    }
+}
+@media (max-width:750px){
  .son_2{
      display: block;
     
  }
- .son_2 > img ,.son_3 >img{
-    width: 300px;
-    margin-bottom: 15px;
-
-}
 .son_2  h2, .son_2 p
 {
     text-align: center;
